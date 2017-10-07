@@ -1,5 +1,8 @@
 xposed 二次开发 SDK 参数文档说明
 
+demo: `demo.apk`
+main sdk directory: `sdk/*`
+
 ## 1. 调用说明
 
 首先下载安装微控工具 xposed 模块，如何安装请参照 xposed 模块安装，在此不再说明。 在使用 sdk 的工程中加入 sdk 的接口动态库(libwtoolsdk.so)和接口调用 jar 包 (wtoolsdk.jar)    
