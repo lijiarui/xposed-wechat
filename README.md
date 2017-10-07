@@ -30,31 +30,37 @@ xposed 二次开发 SDK 参数文档说明
 
 ### 2) 字符串编码
 
-函数:String encodeValue(String value) 描述:字符串进行编码
+函数:String encodeValue(String value) 
 
-参数:
+描述:字符串进行编码
 
-value 要编码的字符串 返回:
+参数:value 要编码的字符串 
 
-编码后的字符串
+返回:编码后的字符串
 
 ### 3) 字符串解码
 
-函数:String decodeValue(String value) 描述:对字符串进行解码(在传输过程中模块对一些字符串进行了编码，使用时要 进行解码，编码的字符串在相应的接口有说明，加有【编码】标识)
+函数:String decodeValue(String value) 
 
-参数:
+描述:对字符串进行解码(在传输过程中模块对一些字符串进行了编码，使用时要 进行解码，编码的字符串在相应的接口有说明，加有【编码】标识)
 
-value 要解码的字符串 返回:
+参数:value 要解码的字符串 
 
-解码后的字符串
+返回:解码后的字符串
 
 ### 4) SDK 初始化
 
-函数:String init(String appId,String authCode) 描述:在使用 SDK 前首先调用该接口进行初始化 参数:
+函数:String init(String appId,String authCode) 
+
+描述:在使用 SDK 前首先调用该接口进行初始化 
+
+参数: 
 
 appId 应用 ID(向接口提供者申请，每个使用 sdk 的应用都有一个唯一的 appid，用于在同一设备上多个应用同时使用 sdk)
 
-authCode 授权码(向接口提供者获取，以下同) 返回:
+authCode 授权码(向接口提供者获取，以下同) 
+
+返回:
 
 见接口函数返回说明，无 content。
 
@@ -238,11 +244,13 @@ action=26
 
 ### 7) 设置任务执行结果回调
 
-函数:void setOnTaskEndListener(OnTaskEndListener taskEndListener) 描述:设置任务执行结果回调，任务执行结束后通过回调检测执行结果;如发送文 本消息，发送完成后会触发该回调
+函数:void setOnTaskEndListener(OnTaskEndListener taskEndListener) 
 
-参数:
+描述:设置任务执行结果回调，任务执行结束后通过回调检测执行结果;如发送文 本消息，发送完成后会触发该回调
 
-taskEndListener 回调接口 返回:无
+参数:taskEndListener 回调接口 
+
+返回:无
 
 回调接口:
 
@@ -262,8 +270,10 @@ getContent() 结果内容，json 字符串，根据不同任务类型返回不�
 
 ### 8) 获取 SDK 版本号 
 
-函数:String getVersion() 描述:获取 SDK 版本号 参数:无
+函数:String getVersion() 
 
-返回:
+描述:获取 SDK 版本号 
 
-版本号，如:1.0.0.0
+参数:无
+
+返回:版本号，如:1.0.0.0
