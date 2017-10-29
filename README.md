@@ -1,7 +1,7 @@
 xposed 二次开发 SDK 参数文档说明
 
 demo: `demo.apk`
-
+![demo-img](https://github.com/lijiarui/xposed-wechat/blob/demo.jpeg)
 main sdk directory: `sdk/*`
 
 ## 1. 调用说明
